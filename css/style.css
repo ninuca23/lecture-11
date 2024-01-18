@@ -1,0 +1,149 @@
+.container {
+    max-width:1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* FORMS */
+
+p {
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: left;
+    color:#5863E3;
+    margin: 57px 0 7px 144px;
+}
+
+h1 {
+    width: 371px;
+    height: 112px;
+    font-family: Helvetica;
+    font-size: 49px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0 0 57px 144px;
+    color: #000000;
+}
+
+
+textarea {
+    resize: none;
+    width: 756px;
+    height: 298px;
+    border: 2px solid  rgba(213, 211, 211, 0.3);
+}
+
+.forms {
+    display: flex;
+    margin-left: 144px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin-left: 20px;
+}
+
+.inputs input {
+    width: 370px;
+    height: 59px;
+    border: 2px solid  rgba(213, 211, 211, 0.3);
+}
+
+.inputs :last-child {
+    background-color: #5968F4;
+    color: white;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* Section 1 - Contact Icons*/
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+    margin: 51px 0 74px;
+}
+
+.contacts a {
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 700;
+    color: #99999A;
+}
+
+.contacts label {
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    color:#4E4D54;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.mail img {
+    width: 41px;
+    height: 29px;
+    margin: 20px 0 0 13px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.phone img {
+    width: 51px;
+    height: 41px;
+    margin: 12px 0 0 9px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.location img {
+    width: 23px;
+    height: 38px;
+    margin: 15px 0 0 23px;
+}
+
+.icons {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background-color: #5863E3;
+}
+
+section h1 {
+    width:548px;
+    margin-top: 7px;
+    size: 49px;
+    line-height: 56.35px;
+}
+
+
+/* section photos */
+
+.photos {
+    display: flex;
+    justify-content: space-around;
+}
+.photos img {
+    width: 373px; 
+    height: 373px;
+}
