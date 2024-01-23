@@ -22,7 +22,7 @@ h1 {
     font-size: 49px;
     font-weight: 400;
     text-align: left;
-    /* margin: 0 0 57px ; */
+    margin-bottom: 57px;
     color: #000000;
 }
 
@@ -79,6 +79,7 @@ textarea {
 
 .s-1 > h1 {
     margin-left: 144px;
+    margin-bottom: 53px;
 }
 
 .s-1 > p {
